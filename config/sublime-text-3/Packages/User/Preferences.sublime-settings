@@ -1,6 +1,13 @@
 {
+	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+    "font_face": "Fira Code",
+	"font_size": 11,
+    "line_padding_top": 2,
+    "rulers": [80,120],
+    "line_padding_bottom": 2,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"theme": "One Dark.sublime-theme"
 }
