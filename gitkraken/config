@@ -1,0 +1,39 @@
+{
+  "lastUpgradeScriptRun": "v5.0.0",
+  "appId": "cb1938eabdab63d6c6a1721dfca36781feb20485",
+  "windowSettings": {
+    "x": 51,
+    "y": 57,
+    "width": 1251,
+    "height": 711,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "registration": {
+    "email": "victor@otavioferreira.com.br",
+    "name": "Victor Otávio",
+    "status": "activated",
+    "trialStatus": "ignored",
+    "loginType": "username_and_password",
+    "providerToken": null,
+    "date": "2019-04-06T00:35:21.376Z",
+    "EULA": {
+      "version": "1.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "a9e6bf36-02b9-4123-9d48-c66dedf521b6",
+  "licensedFeatures": [],
+  "userFeatures": [
+    {
+      "betaFeaturesEnabled": false,
+      "name": "gitkraken"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "glo"
+    }
+  ],
+  "keepGitConfigInSyncWithProfile": false,
+  "hasSeenNewUserOnboarding": true
+}

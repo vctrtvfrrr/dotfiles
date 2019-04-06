@@ -1,0 +1,14 @@
+{
+  "profileIcon": "gravatar",
+  "profileName": "Victor Otávio",
+  "userEmail": "victor@otavioferreira.com.br",
+  "userName": "Victor Otávio",
+  "editor": {
+    "fontFamily": "Ubuntu Mono"
+  },
+  "autoFetchInterval": "10",
+  "lastOpenedRepository": "/home/victor",
+  "fileNodeList": {
+    "viewMode": "tree_view"
+  }
+}
