@@ -1,0 +1,13 @@
+[user]
+	name = Victor Otávio
+	email = victor@otavioferreira.com.br
+[push]
+	default = simple
+[pull]
+	rebase = true
+[alias]
+	ap = add --patch
+[merge]
+	tool = meld
+[branch "master"]
+	mergeoptions = --ff-only
