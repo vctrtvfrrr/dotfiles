@@ -64,7 +64,7 @@ ZSH_THEME="victor-prompt"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  wakatime
+  zsh-wakatime
   zsh-autosuggestions
 )
 
