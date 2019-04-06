@@ -1,0 +1,6 @@
+[submodule "oh-my-zsh/custom/plugins/wakatime-zsh-plugin"]
+	path = oh-my-zsh/custom/plugins/wakatime-zsh-plugin
+	url = https://github.com/wbingli/zsh-wakatime.git
+[submodule "oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
