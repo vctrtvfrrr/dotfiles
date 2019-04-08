@@ -1,12 +1,7 @@
 {
   "lastUpgradeScriptRun": "v5.0.0",
-  "appId": "cb1938eabdab63d6c6a1721dfca36781feb20485",
+  "appId": "e481cc99f0dbd28fe1ef81ddde7ca4777c8fbfc6",
   "windowSettings": {
-    "x": 51,
-    "y": 57,
-    "width": 1251,
-    "height": 711,
-    "fullScreen": false,
     "maximized": true
   },
   "registration": {
@@ -15,14 +10,12 @@
     "status": "activated",
     "trialStatus": "ignored",
     "loginType": "username_and_password",
-    "providerToken": null,
-    "date": "2019-04-06T00:35:21.376Z",
     "EULA": {
       "version": "1.5.0",
       "status": "agree_verified"
     }
   },
-  "userId": "a9e6bf36-02b9-4123-9d48-c66dedf521b6",
+  "userId": "9cb01698-6503-436e-82a7-be5893f6c3ed",
   "licensedFeatures": [],
   "userFeatures": [
     {
@@ -35,5 +28,8 @@
     }
   ],
   "keepGitConfigInSyncWithProfile": false,
-  "hasSeenNewUserOnboarding": true
+  "hasSeenNewUserOnboarding": true,
+  "ui": {
+    "spellcheck": false
+  }
 }
