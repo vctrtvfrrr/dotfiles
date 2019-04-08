@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+console.log(${1:'stop'})
+]]></content>
+<tabTrigger>log</tabTrigger>
+<description>console.log</description>
+<scope>source.js, meta.export.js, meta.class.js, meta.block.js, meta.block.js, meta.conditional.js, meta.block.js, meta.function-call.method.js, support.type.object.console.js</scope>
+</snippet>

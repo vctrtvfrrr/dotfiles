@@ -1,11 +1,10 @@
+app.cookies-disabled=true
 language="pt-BR"
-app.window.position.x=51
+app.window.position.x=177
 app.window.position.saved=true
-app.window.position.height=713
 app.autostart-mode=""
-app.window.position.y=55
+app.window.position.y=93
 storage.last-location="/home/victor/.cache/spotify/Storage"
-app.window.position.width=1315
-core.clock_delta=0
+core.clock_delta=-1
 app.last-launched-version="1.0.98.78.gb45d2a6b"
 app.autostart-configured=true

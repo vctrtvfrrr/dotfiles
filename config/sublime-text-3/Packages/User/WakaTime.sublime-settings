@@ -1,0 +1,5 @@
+{
+	"api_key": "<INSERT_API_KEY_HERE>",
+    "ignore": [".*"],
+    "include": ["/home/victor/Code/*"]
+}

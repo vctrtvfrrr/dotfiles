@@ -4,11 +4,16 @@
   "userEmail": "victor@otavioferreira.com.br",
   "userName": "Victor Otávio",
   "editor": {
-    "fontFamily": "Ubuntu Mono"
+    "fontFamily": "Menlo"
   },
   "autoFetchInterval": "10",
-  "lastOpenedRepository": "/home/victor",
+  "lastOpenedRepository": "/home/victor/.dotfiles",
   "fileNodeList": {
     "viewMode": "tree_view"
+  },
+  "layout": {
+    "RefPanel": {
+      "width": 355
+    }
   }
 }

@@ -6,10 +6,33 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"API Blueprint",
+		"Blade Snippets",
+		"Color Highlighter",
+		"CSS3",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"EditorConfig",
 		"Emmet",
-		"Material Theme",
+		"GitGutter",
+		"HTML5",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"Markdown Extended",
 		"Package Control",
+		"PHP Companion",
+		"PHP CS Fixer",
+		"ProjectManager",
+		"Sass",
 		"SideBarEnhancements",
-		"Theme - One Dark"
+		"SnippetMaker",
+		"SublimeLinter",
+		"Theme - One Dark",
+		"Vue Syntax Highlight",
+		"Vuetify",
+		"WakaTime"
 	]
 }

@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"com",
+				"components"
+			],
+			[
+				"depar",
+				"departments"
+			],
+			[
+				"depa",
+				"departments"
+			],
+			[
+				"getDe",
+				"getDepartmentName"
+			],
+			[
+				"depart",
+				"department"
+			],
+			[
+				"limi",
+				"limitDescription"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"pa",
+				"apiPaths"
+			],
+			[
+				"fact",
+				"factorystate\tfactorystate"
+			],
+			[
+				"atta",
+				"attachs"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"get_class",
+				"get_class_methods"
+			],
+			[
+				"filter",
+				"filterFields"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"pmanager",
+				"Project Manager: Add New Project"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"maker",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"svg",
+				"SVGO: Minify SVG"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 217.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/victor/Code/sync"
+	],
+	"file_history":
+	[
+		"/home/victor/Code/sync/sync.sh",
+		"/home/victor/Code/sync/download.sh",
+		"/home/victor/Code/sync/upload.sh",
+		"/etc/systemd/system/sync-to-server.service",
+		"/home/victor/Code/tarifador/src/presenters/UserPresenter.js",
+		"/home/victor/Code/tarifador/src/repositories/Repository.js",
+		"/home/victor/Code/tarifador/src/components/UsersTable.vue",
+		"/home/victor/Code/tarifador/src/repositories/DepartmentsRepository.js",
+		"/home/victor/Code/tarifador/src/repositories/UsersRepository.js",
+		"/home/victor/Code/tarifador/src/services/api/Users.js",
+		"/home/victor/Code/tarifador/src/services/repositories/Factory.js",
+		"/home/victor/Code/tarifador/src/views/PageSettings.vue",
+		"/home/victor/Code/tarifador/src/setup/vue-auth.js",
+		"/home/victor/Code/tarifador/src/services/presenters/User.js",
+		"/home/victor/Code/tarifador/src/services/repositories/Users.js",
+		"/home/victor/Code/tarifador/src/services/repositories/Settings.js",
+		"/home/victor/Code/tarifador/src/services/repositories/Departments.js",
+		"/home/victor/Code/tarifador/src/setup/vue-axios.js",
+		"/home/victor/.config/sublime-text-3/Packages/User/Snippets/dd.sublime-snippet",
+		"/home/victor/.config/sublime-text-3/Packages/User/Snippets/log.sublime-snippet",
+		"/home/victor/Code/tarifador/src/services/api/index.js",
+		"/home/victor/Code/tarifador/src/main.js",
+		"/home/victor/Code/tarifador/src/setup/axios.js",
+		"/home/victor/Code/tarifador/src/utils/numeral.js",
+		"/home/victor/Code/tarifador/src/services/api/Departments.js",
+		"/home/victor/.config/sublime-text-3/Packages/User/ESLint.sublime-settings",
+		"/home/victor/.config/sublime-text-3/Packages/ESLint/ESLint.sublime-settings",
+		"/home/victor/Code/tarifador/package-lock.json",
+		"/home/victor/Code/tarifador/package.json",
+		"/home/victor/Code/tarifador/src/components/MainNavbar.vue",
+		"/home/victor/Code/tarifador/src/components/TheFooter.vue",
+		"/home/victor/Code/tarifador/.env.example",
+		"/home/victor/Code/tarifador/src/lang/pt-BR.json",
+		"/home/victor/Code/tarifador/src/lang/en.json",
+		"/home/victor/Code/tarifador/src/components/LoginForm.vue",
+		"/home/victor/Code/tarifador/src/services/api/Model.js",
+		"/home/victor/.npmrc",
+		"/home/victor/Code/tarifador/.npmrc",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/wizley.com.br.conf",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/lithharbor.net.conf",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/victorotavio.com.br.conf",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/otavioferreira.com.br.conf",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/codedev.com.br.conf",
+		"/run/user/1000/gvfs/sftp:host=207.246.67.159,user=root/etc/nginx/conf.d/ipbtingui.org.br.conf",
+		"/home/victor/Code/tarifador/src/views/PageUsers.vue",
+		"/home/victor/Code/tarifador/src/components/NothingFound.vue",
+		"/home/victor/Code/tarifador/src/views/PageLogin.vue",
+		"/home/victor/Code/tarifador/node_modules/ctstyle/sass/components/navbar.sass",
+		"/home/victor/Code/tarifador/node_modules/ctstyle/sass/ctstyle.sass",
+		"/home/victor/Code/tarifador/node_modules/ctstyle/sass/utilities/initial-variables.sass",
+		"/home/victor/Code/tarifador/node_modules/ctstyle/sass/utilities/derived-variables.sass",
+		"/home/victor/Code/tarifador/src/assets/img/logo.svg",
+		"/home/victor/Code/tarifador/src/services/api/paths.js",
+		"/home/victor/Code/tarifador/src/assets/sass/custom.sass",
+		"/home/victor/Code/tarifador/src/utils/alert-confirmation.js",
+		"/home/victor/Code/tarifador/src/utils/index.js",
+		"/home/victor/Code/tarifador/node_modules/@websanova/vue-auth/drivers/auth/bearer.js",
+		"/home/victor/Code/tarifador/.env.local",
+		"/home/victor/Code/tarifador/node_modules/acorn-globals/package.json",
+		"/home/victor/Code/tarifador/node_modules/ctstyle/sass/utilities/_all.sass",
+		"/home/victor/Code/tarifador/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 137.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"path_to_remote",
+			"USER@SERVER",
+			"path_to_remote",
+			"USER@SERVER",
+			"rptvu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sync.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"src/components/MainNavbar.vue",
+				"src/components/MainNavbar.vue"
+			],
+			[
+				"src/views/PageSettings.vue",
+				"src/views/PageSettings.vue"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
