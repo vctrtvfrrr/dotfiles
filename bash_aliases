@@ -3,7 +3,7 @@ alias dpki='sudo dpkg -i'
 alias apti='sudo apt install -y'
 alias update="sudo apt-get update ; sudo apt-get -y upgrade ; sudo apt-get -y dist-upgrade; aptclean"
 alias aptclean="sudo apt-get autoremove ; sudo apt-get autoclean; sudo apt-get install -f ; sudo apt-get clean"
-alias fullupdate='update && npm -g upgrade && composer self-update && composer global update'
+alias fullupdate='update && npm -g upgrade && sudo -H composer self-update && composer global update'
 
 # Files & folders
 alias ..='cd ..'
