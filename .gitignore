@@ -1,0 +1,12 @@
+# Font installation UUID
+/fonts/**/.uuid
+
+# Sublime Text - Package Control
+/config/sublime-text-3/Packages/User/Color Highlight*
+/config/sublime-text-3/Packages/User/Package Control.cache/*
+/config/sublime-text-3/Packages/User/Package Control.last-run
+/config/sublime-text-3/Packages/User/Package Control.merged-ca-bundle
+/config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+/config/sublime-text-3/Packages/User/Projects/*.sublime-workspace
+/config/sublime-text-3/Packages/User/Projects/ctvoicer-*.sublime-project
+/config/sublime-text-3/Packages/User/Projects/recent.json
