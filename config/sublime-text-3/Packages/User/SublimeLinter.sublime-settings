@@ -1,0 +1,12 @@
+{
+    "linters": {
+        "eslint": {
+            "selector": "text.html.vue, source.js - meta.attribute-with-value"
+        }
+    },
+    "styles": [
+    	{
+    		"mark_style": "stippled_underline"
+    	}
+    ]
+}
