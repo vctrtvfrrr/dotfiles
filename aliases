@@ -39,7 +39,7 @@ alias pw='phpunit-watcher watch --stop-on-failure'
 alias pwf='phpunit-watcher watch --stop-on-failure --filter'
 
 # Shortcuts
-alias showalias="cat ~/.bash_aliases"
+alias showalias="cat ~/.aliases"
 alias myip='curl http://ipecho.net/plain; echo'
 alias hs='history | grep'
 alias snano='sudo nano'

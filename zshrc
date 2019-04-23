@@ -4,6 +4,14 @@ export PATH=$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# History Configuration
+HISTSIZE=5000               # How many lines of history to keep in memory
+HISTFILE=$HOME/.history     # Where to save history to disk
+SAVEHIST=5000               # Number of history entries to save to disk
+setopt hist_ignore_all_dups # Duplicates the command line and remove the old one from the list
+setopt hist_find_no_dups    # Do not display duplicates of a line previously found
+setopt hist_save_no_dups    # Older commands that duplicate newer ones are omitted
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -64,6 +72,9 @@ ZSH_THEME="victor-prompt"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  docker
+  npm
+  sudo
   zsh-wakatime
   zsh-autosuggestions
 )
