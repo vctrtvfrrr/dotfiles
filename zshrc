@@ -6,8 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # History Configuration
 HISTSIZE=5000               # How many lines of history to keep in memory
-HISTFILE=$HOME/.history     # Where to save history to disk
-SAVEHIST=5000               # Number of history entries to save to disk
+SAVEHIST=10000              # Number of history entries to save to disk
 setopt hist_ignore_all_dups # Duplicates the command line and remove the old one from the list
 setopt hist_find_no_dups    # Do not display duplicates of a line previously found
 setopt hist_save_no_dups    # Older commands that duplicate newer ones are omitted
