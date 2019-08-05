@@ -8,11 +8,21 @@
   },
   "autoFetchInterval": "10",
   "fileNodeList": {
-    "viewMode": "tree_view"
+    "viewMode": "full_path",
+    "sort": "name_ascending"
   },
   "layout": {
     "RefPanel": {
       "width": 355
+    },
+    "DetailPanel": {
+      "width": 400
     }
+  },
+  "ui": {
+    "useAuthorInitialsForAvatars": true
+  },
+  "fileView": {
+    "diffDisplayMode": "hunk"
   }
 }

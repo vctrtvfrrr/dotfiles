@@ -1,5 +1,5 @@
 {
-  "lastUpgradeScriptRun": "v5.0.0",
+  "lastUpgradeScriptRun": "v6.0.0",
   "appId": "e481cc99f0dbd28fe1ef81ddde7ca4777c8fbfc6",
   "windowSettings": {
     "maximized": true
@@ -16,7 +16,10 @@
     }
   },
   "userId": "9cb01698-6503-436e-82a7-be5893f6c3ed",
-  "licensedFeatures": [],
+  "licensedFeatures": [
+    "individual",
+    "version6LegacyTrial"
+  ],
   "userFeatures": [
     {
       "betaFeaturesEnabled": false,
@@ -27,9 +30,12 @@
       "name": "glo"
     }
   ],
-  "keepGitConfigInSyncWithProfile": false,
+  "keepGitConfigInSyncWithProfile": true,
   "hasSeenNewUserOnboarding": true,
   "ui": {
-    "spellcheck": false
-  }
+    "spellcheck": false,
+    "wideLayout": true
+  },
+  "lastReleaseNotesDisplayed": "6.0.0",
+  "hasNotConfirmedVersion6LegacyTrial": false
 }
