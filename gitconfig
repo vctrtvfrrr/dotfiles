@@ -2,13 +2,13 @@
   name = Victor Otávio
   email = victor@otavioferreira.com.br
 [push]
-  default = simple
-  followTags = true
+	default = simple
+	followTags = true
 [pull]
-  rebase = true
+	rebase = true
 [alias]
-  ap = add --patch
+	ap = add --patch
 [merge]
-  tool = meld
+	tool = meld
 [branch "master"]
-  mergeoptions = --ff-only
+	mergeoptions = --ff-only

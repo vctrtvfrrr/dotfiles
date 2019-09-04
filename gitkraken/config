@@ -1,5 +1,5 @@
 {
-  "lastUpgradeScriptRun": "v6.0.0",
+  "lastUpgradeScriptRun": "v6.1.0",
   "appId": "e481cc99f0dbd28fe1ef81ddde7ca4777c8fbfc6",
   "windowSettings": {
     "maximized": true
@@ -36,6 +36,6 @@
     "spellcheck": false,
     "wideLayout": true
   },
-  "lastReleaseNotesDisplayed": "6.0.0",
+  "lastReleaseNotesDisplayed": "6.1.1",
   "hasNotConfirmedVersion6LegacyTrial": false
 }
