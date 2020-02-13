@@ -17,25 +17,19 @@
   },
   "userId": "9cb01698-6503-436e-82a7-be5893f6c3ed",
   "licensedFeatures": [
-    "individual",
-    "version6LegacyTrial"
+    "pro"
   ],
-  "userFeatures": [
-    {
-      "betaFeaturesEnabled": false,
-      "name": "gitkraken"
-    },
-    {
-      "betaFeaturesEnabled": false,
-      "name": "glo"
-    }
-  ],
+  "userFeatures": [],
   "keepGitConfigInSyncWithProfile": true,
   "hasSeenNewUserOnboarding": true,
   "ui": {
     "spellcheck": false,
     "wideLayout": true
   },
-  "lastReleaseNotesDisplayed": "6.1.1",
-  "hasNotConfirmedVersion6LegacyTrial": false
+  "lastReleaseNotesDisplayed": "6.4.0",
+  "hasNotConfirmedVersion6LegacyTrial": false,
+  "lastVersion": "6.4.0",
+  "commits": {
+    "maxCommitsInGraph": 2000
+  },
 }

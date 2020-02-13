@@ -1,5 +1,9 @@
-# Composer; Node.js & npm
-export PATH=$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$PATH
+# Golang setup
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Golang
+
+# Composer; Node.js & npm & VSTS Cli & Golang
+export PATH=$PATH:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$GOROOT/bin:$GOPATH/bin:$ANDROID_HOME/tools/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh

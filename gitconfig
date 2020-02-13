@@ -1,6 +1,6 @@
 [user]
-  name = Victor Otávio
-  email = victor@otavioferreira.com.br
+	name = Victor Ferreira
+	email = victor@otavioferreira.com.br
 [push]
 	default = simple
 	followTags = true
@@ -12,3 +12,9 @@
 	tool = meld
 [branch "master"]
 	mergeoptions = --ff-only
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[gpg]
+	program = gpg
