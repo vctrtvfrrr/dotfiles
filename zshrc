@@ -2,7 +2,7 @@
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/Golang
 
-# Composer; Node.js & npm & VSTS Cli & Golang
+# Composer; Node.js & npm & Golang
 export PATH=$PATH:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$GOROOT/bin:$GOPATH/bin:$ANDROID_HOME/tools/bin
 
 # Path to your oh-my-zsh installation.

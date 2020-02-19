@@ -48,7 +48,7 @@ alias showalias="cat ~/.aliases"
 alias myip='curl http://ipecho.net/plain; echo'
 alias hs='history | grep'
 alias snano='sudo nano'
-alias dcom='docker-compose -f /path/to/project/docker-compose.yml --project-directory /path/to/project'
+alias dcom=docker-compose
 alias todo='micro $HOME/.todo'
 alias weather='curl -H "Accept-Language: pt-BR" wttr.in/Curitiba'
 alias w='curl -s -H "Accept-Language: pt-BR" wttr.in/Curitiba\?format\=3'
