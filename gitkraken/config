@@ -1,35 +1,98 @@
 {
-  "lastUpgradeScriptRun": "v6.1.0",
-  "appId": "e481cc99f0dbd28fe1ef81ddde7ca4777c8fbfc6",
+  "lastUpgradeScriptRun": "v6.5.0",
+  "lastVersion": "6.6.0",
+  "lastReleaseNotesDisplayed": "6.6.0",
+  "appId": "cb1938eabdab63d6c6a1721dfca36781feb20485",
   "windowSettings": {
+    "fullScreen": false,
     "maximized": true
   },
   "registration": {
     "email": "victor@otavioferreira.com.br",
     "name": "Victor Otávio",
     "status": "activated",
-    "trialStatus": "ignored",
     "loginType": "username_and_password",
+    "providerToken": null,
+    "date": "2020-03-15T16:37:48.488Z",
     "EULA": {
       "version": "1.5.0",
       "status": "agree_verified"
     }
   },
-  "userId": "9cb01698-6503-436e-82a7-be5893f6c3ed",
+  "userId": "a9e6bf36-02b9-4123-9d48-c66dedf521b6",
   "licensedFeatures": [
     "pro"
   ],
-  "userFeatures": [],
-  "keepGitConfigInSyncWithProfile": true,
+  "userFeatures": [
+    {
+      "betaFeaturesEnabled": false,
+      "name": "gitkraken"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "glo"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "timelines"
+    }
+  ],
   "hasSeenNewUserOnboarding": true,
-  "ui": {
-    "spellcheck": false,
-    "wideLayout": true
+  "fuzzyFinderMetadata": {
+    "queryMetadata": {
+      "TOP": {
+        "push": [
+          {
+            "id": "push",
+            "timestamps": [
+              1584969624664
+            ],
+            "total": 1
+          }
+        ],
+        "checkout": [
+          {
+            "id": "domain-checkout",
+            "timestamps": [
+              1585571419949,
+              1586549883293,
+              1587739573949
+            ],
+            "total": 3
+          }
+        ]
+      }
+    },
+    "itemMetadata": {
+      "TOP": {
+        "push": {
+          "id": "push",
+          "timestamps": [
+            1584969624664
+          ],
+          "total": 1
+        },
+        "domain-checkout": {
+          "id": "domain-checkout",
+          "timestamps": [
+            1585571419949,
+            1585831198069,
+            1586549883291,
+            1587739573948
+          ],
+          "total": 4
+        }
+      }
+    }
   },
-  "lastReleaseNotesDisplayed": "6.4.0",
-  "hasNotConfirmedVersion6LegacyTrial": false,
-  "lastVersion": "6.4.0",
   "commits": {
     "maxCommitsInGraph": 2000
   },
+  "ui": {
+    "toolbar": {
+      "showTimelines": false,
+      "showGlo": false
+    },
+    "spellcheck": false
+  }
 }

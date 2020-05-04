@@ -4,7 +4,7 @@
   "userEmail": "victor@otavioferreira.com.br",
   "userName": "Victor Otávio Ferreira",
   "editor": {
-    "fontFamily": "Menlo"
+    "fontFamily": "Fira Code"
   },
   "autoFetchInterval": "10",
   "fileNodeList": {
@@ -24,5 +24,10 @@
   },
   "fileView": {
     "diffDisplayMode": "hunk"
+  },
+  "gpg": {
+    "userSigningKey": "9E1B44D002BAAE05A8E0F5D4AC85DFA1A237360F",
+    "commitGpgSign": true,
+    "tagForceSignAnnotated": true
   }
 }
