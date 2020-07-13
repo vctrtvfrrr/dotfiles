@@ -1,5 +1,5 @@
 " Author: Victor Ferreira
-" Source: https://github.com/VictorOtavio/dotfiles
+" Source: https://github.com/vctrtvfrrr/dotfiles
 
 " LEADER KEY
 let mapleader=","
