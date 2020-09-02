@@ -38,9 +38,11 @@
 		"SnippetMaker",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-dockerfilelint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-php",
 		"Theme - One Dark",
+		"Twig",
 		"Vue Syntax Highlight",
 		"WakaTime"
 	]

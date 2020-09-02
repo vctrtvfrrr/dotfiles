@@ -1,5 +1,5 @@
 # Composer; Node.js & npm & Golang
-export PATH=$PATH:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin
+export PATH=$PATH:$HOME/.composer/vendor/bin:$HOME/.npm-global/bin:$HOME/go/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
