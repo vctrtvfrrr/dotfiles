@@ -43,13 +43,17 @@ alias pwf='phpunit-watcher watch --stop-on-failure --filter'
 # Go
 alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type f -name "*.go" | grep -v _test.go) }; gorunfunc'
 
+# Docker
+alias dcom='docker-compose'
+alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
+alias phpd='docker run --rm -it -v $(pwd):/app -w /app php:latest php'
+
 # Shortcuts
 alias showalias="cat ~/.aliases"
 alias myip='curl http://ipecho.net/plain; echo'
 alias hs='history | grep'
 alias snano='sudo nano'
-alias dcom='docker-compose'
-alias docker_clean='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
+alias vim='micro'
 alias todo='micro $HOME/.todo'
 alias weather='curl -H "Accept-Language: pt-BR" wttr.in/Curitiba'
 alias w='curl -s -H "Accept-Language: pt-BR" wttr.in/Curitiba\?format\=3'

@@ -23,7 +23,7 @@
     "useAuthorInitialsForAvatars": true
   },
   "fileView": {
-    "diffDisplayMode": "hunk"
+    "diffDisplayMode": "split"
   },
   "gpg": {
     "userSigningKey": "9E1B44D002BAAE05A8E0F5D4AC85DFA1A237360F",
