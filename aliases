@@ -46,15 +46,13 @@ alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type
 # Docker
 alias dcom='docker-compose'
 alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
-alias phpd='docker run --rm -it -v $(pwd):/app -w /app php:latest php'
+alias php='docker run --rm -it -v $(pwd):/app -w /app php:latest php'
 
 # Shortcuts
 alias showalias="cat ~/.aliases"
 alias myip='curl http://ipecho.net/plain; echo'
 alias hs='history | grep'
 alias snano='sudo nano'
-alias vim='micro'
 alias todo='micro $HOME/.todo'
-alias weather='curl -H "Accept-Language: pt-BR" wttr.in/Curitiba'
-alias w='curl -s -H "Accept-Language: pt-BR" wttr.in/Curitiba\?format\=3'
-alias effort='node -e "var res = Math.floor((process.argv[1] * 10) / 16); console.log(res > 0 ? (res > 10 ? 10 : res) : 1)"'
+alias weather='curl -H "Accept-Language: pt-BR" wttr.in/Itapema'
+alias w='curl -s -H "Accept-Language: pt-BR" wttr.in/Itapema\?format\=3'

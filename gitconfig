@@ -1,7 +1,7 @@
 [user]
 	name = Victor Otávio Ferreira
 	email = victor@otavioferreira.com.br
-	signingKey = 9E1B44D002BAAE05A8E0F5D4AC85DFA1A237360F
+	signingKey = <GPG_KEY_ID>
 [push]
 	default = simple
 	followTags = true
