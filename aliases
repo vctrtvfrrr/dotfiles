@@ -28,6 +28,7 @@ alias nah='git reset --hard && git clean -df'
 alias wip='git add . && git commit -m "wip"'
 alias wtc="curl --silent 'http://whatthecommit.com/index.txt'"
 alias gcom='git commit -m "$(wtc)"'
+alias manda='git add . && gcom && git push'
 
 # PHP
 alias art='php artisan'
@@ -44,7 +45,7 @@ alias pwf='phpunit-watcher watch --stop-on-failure --filter'
 alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type f -name "*.go" | grep -v _test.go) }; gorunfunc'
 
 # Docker
-alias dcom='docker-compose'
+alias dcom='docker-compose -f docker-compose.yml'
 alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
 alias php='docker run --rm -it -v $(pwd):/app -w /app php:latest php'
 

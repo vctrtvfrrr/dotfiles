@@ -9,6 +9,22 @@
 	rebase = true
 [alias]
 	ap = add --patch
+	l = log --pretty=oneline -n 20 --graph
+	s = status -s
+	d = diff --patch-with-stat
+	p = !"git pull; git submodule foreach git pull origin master"
+	c = clone --recursive
+	ca = !git add -A && git commit -av
+	go = checkout -B
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+	undopush = push -f origin HEAD^:master
+	ci = commit
+	co = checkout
+	br = branch
+	st = status
 [merge]
 	tool = meld
 [branch "master"]
@@ -20,4 +36,7 @@
 [gpg]
 	program = gpg
 [core]
-	excludesfile = /home/victor/.gitignore_global
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	editor = subl -w

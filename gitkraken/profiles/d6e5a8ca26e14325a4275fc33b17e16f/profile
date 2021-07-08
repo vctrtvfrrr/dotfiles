@@ -20,7 +20,7 @@
     }
   },
   "ui": {
-    "useAuthorInitialsForAvatars": true
+    "useAuthorInitialsForAvatars": false
   },
   "fileView": {
     "diffDisplayMode": "split"
