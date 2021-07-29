@@ -28,7 +28,6 @@ alias nah='git reset --hard && git clean -df'
 alias wip='git add . && git commit -m "wip"'
 alias wtc="curl --silent 'http://whatthecommit.com/index.txt'"
 alias gcom='git commit -m "$(wtc)"'
-alias manda='git add . && gcom && git push'
 
 # PHP
 alias art='php artisan'

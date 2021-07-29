@@ -3,28 +3,21 @@
 	email = victor@otavioferreira.com.br
 	signingKey = <GPG_KEY_ID>
 [push]
-	default = simple
+	default = current
 	followTags = true
 [pull]
 	rebase = true
 [alias]
 	ap = add --patch
-	l = log --pretty=oneline -n 20 --graph
-	s = status -s
 	d = diff --patch-with-stat
-	p = !"git pull; git submodule foreach git pull origin master"
 	c = clone --recursive
-	ca = !git add -A && git commit -av
-	go = checkout -B
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
 	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
 	undopush = push -f origin HEAD^:master
-	ci = commit
-	co = checkout
-	br = branch
-	st = status
+	l = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	go = "!git add -A && (git diff-index --quiet HEAD || git commit -m \"$(curl --silent 'http://whatthecommit.com/index.txt')\") && git push -u"
 [merge]
 	tool = meld
 [branch "master"]
@@ -38,5 +31,11 @@
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
-	whitespace = space-before-tab,indent-with-non-tab,trailing-space
-	editor = subl -w
+	editor = nano
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = master
