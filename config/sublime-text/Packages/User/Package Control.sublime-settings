@@ -7,6 +7,7 @@
 		"Alignment",
 		"API Blueprint",
 		"AutoFileName",
+		"ayu",
 		"Blade Snippets",
 		"Color Highlighter",
 		"CSS3",
@@ -25,6 +26,8 @@
 		"Laravel Blade Highlighter",
 		"LESS",
 		"Markdown Extended",
+		"Markdown Table Formatter",
+		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
 		"PHP Companion",
@@ -41,10 +44,12 @@
 		"SublimeLinter-contrib-dockerfilelint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-php",
+		"Sync Settings",
 		"Theme - One Dark",
+		"Theme - Spacegray",
 		"Twig",
 		"Vue Syntax Highlight",
-		"WakaTime"
+		"WakaTime",
 	],
 	"in_process_packages":
 	[

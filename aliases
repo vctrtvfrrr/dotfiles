@@ -1,11 +1,10 @@
 # APT
 alias dpki='sudo dpkg -i'
 alias apti='sudo apt install -y'
+alias aptr='sudo apt remove --purge -y'
 alias update="sudo apt-get update ; sudo apt-get -y upgrade ; sudo apt-get -y dist-upgrade; aptclean"
 alias aptclean="sudo apt-get -y autoremove ; sudo apt-get -y autoclean; sudo apt-get install -f ; sudo apt-get clean"
-alias npmupdate="npm -g upgrade && sudo chown -R ${USER}: ${HOME}/.npm && sudo chown -R ${USER}: ${HOME}/.npm-global"
-alias composerupdate="sudo -H composer self-update && composer global update"
-alias fullupdate='update && npmupdate && composerupdate'
+alias fullupdate='update && npm -g upgrade && sudo -H composer self-update && composer global update'
 
 # Files & folders
 alias ..='cd ..'
@@ -26,17 +25,14 @@ alias meminfo='free -m -l -t'
 alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 alias nah='git reset --hard && git clean -df'
 alias wip='git add . && git commit -m "wip"'
-alias wtc="curl --silent 'http://whatthecommit.com/index.txt'"
+alias wtc="curl --silent 'https://whatthecommit.com/index.txt'"
 alias gcom='git commit -m "$(wtc)"'
 
 # PHP
-alias art='php artisan'
-#alias fresh='php artisan migrate:fresh'
-#alias migrate='php artisan migrate'
-#alias serve='php artisan serve > /dev/null 2>&1 &'
-alias pserve='php -S localhost:8000 > /dev/null 2>&1 &'
-alias p='phpunit --stop-on-failure'
-alias pf='phpunit --stop-on-failure --filter'
+#alias php="docker run --rm --interactive --tty --volume $PWD:/app -w /app php:latest php"
+#alias composer="docker run --rm --interactive --tty --volume $PWD:/app composer/composer"
+alias p='./vendor/bin/phpunit --stop-on-failure'
+alias pf='./vendor/bin/phpunit --stop-on-failure --filter'
 alias pw='phpunit-watcher watch --stop-on-failure'
 alias pwf='phpunit-watcher watch --stop-on-failure --filter'
 
@@ -44,14 +40,17 @@ alias pwf='phpunit-watcher watch --stop-on-failure --filter'
 alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type f -name "*.go" | grep -v _test.go) }; gorunfunc'
 
 # Docker
-alias dcom='docker-compose -f docker-compose.yml'
+alias dcom='docker compose -f docker-compose.yml'
+alias dcomp='docker compose -f docker-compose.prod.yml'
 alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
 alias phpd='docker run --rm -it -v $PWD:/app -w /app php:latest php'
+alias openapi='docker run --rm -p 8123:8080 -e SWAGGER_JSON=/tmp/schema.yaml -v $PWD:/tmp swaggerapi/swagger-ui'
 
 # Shortcuts
 alias showalias="cat ~/.aliases"
 alias myip='curl http://ipecho.net/plain; echo'
 alias hs='history | grep'
+alias ft='ft(){ grep -rnw `pwd` -e "$1" }; ft'
 alias snano='sudo nano'
 alias todo='micro $HOME/.todo'
 alias weather='curl -H "Accept-Language: pt-BR" wttr.in/Itapema'

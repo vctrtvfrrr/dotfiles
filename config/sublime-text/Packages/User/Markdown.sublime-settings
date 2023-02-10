@@ -1,0 +1,9 @@
+{
+    "extensions":
+    [
+        "md"
+    ],
+    "save_on_focus_lost": true,
+    "line_numbers": true,
+    "translate_tabs_to_spaces": false,
+}

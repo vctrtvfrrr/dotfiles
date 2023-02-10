@@ -1,7 +1,7 @@
 {
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Fira Code",
 	"font_size": 11,
@@ -18,6 +18,6 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "One Dark.sublime-theme",
+	"theme": "Spacegray Eighties.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 }
