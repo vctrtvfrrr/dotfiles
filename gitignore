@@ -1,0 +1,9 @@
+._*
+.DS_Store
+.DS_Store?
+.env
+.Spotlight-V100
+.Trash*
+ehthumbs.db
+node_modules
+Thumbs.db

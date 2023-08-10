@@ -1,30 +1,44 @@
 [user]
 	name = Victor Otávio Ferreira
 	email = victor@ferreira.id
-	signingKey = <GPG_KEY_ID>
+	signingkey = 009E784F43D5CD40
+[core]
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	editor = nano
+[init]
+	defaultBranch = master
+[fetch]
+	prune = true
+[pull]
+	rebase = true
 [push]
 	default = current
 	followTags = true
-[pull]
-	rebase = true
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[branch "master"]
+	mergeoptions = --no-ff
 [alias]
-	master = "!git remote show origin | sed -n '/HEAD branch/s/.*: //p'"
-	sync = "!git merge origin $(git master)"
-	update = "!git pull origin $(git rev-parse --abbrev-ref HEAD) --rebase"
-	squash = "!git rebase -v -i $(git master)"
-	pub = push origin HEAD --force-with-lease
-	ap = add --patch
-	d = diff --patch-with-stat
 	c = clone --recursive
+	d = diff --patch-with-stat
+	ap = add --patch
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
 	amend = commit --amend
 	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+	master = "!git remote show origin | sed -n '/HEAD branch/s/.*: //p'"
+	sync = "!git merge origin $(git master)"
+	update = "!git pull origin $(git rev-parse --abbrev-ref HEAD) --rebase"
+	squash = "!git rebase -v -i $(git master)"
+	pub = push origin HEAD --force-with-lease
 	undo = "!git reset --soft HEAD~"
 	undopush = push -f origin HEAD^:master
 	l = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-	go = "!git add -A && (git diff-index --quiet HEAD || git commit -m \"$(curl --silent 'http://whatthecommit.com/index.txt')\") && git push -u"
+	go = "!git add -A && (git diff-index --quiet HEAD || git commit -m \"$(curl --silent 'https://whatthecommit.com/index.txt')\") && git push -u"
 	pr = "!f() { \
 			open \"$(git ls-remote --get-url $(git config --get branch.$(git rev-parse --abbrev-ref HEAD).remote) \
 			| sed 's|git@github.com:\\(.*\\)$|https://github.com/\\1|' \
@@ -41,27 +55,3 @@
 			)\"; \
 			exit 0; \
 		}; f"
-[merge]
-	tool = meld
-[branch "master"]
-	mergeoptions = --no-ff
-[commit]
-	gpgSign = true
-[tag]
-	forceSignAnnotated = true
-[gpg]
-	program = gpg
-[core]
-	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
-	editor = nano
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[init]
-	defaultBranch = master
-	templatedir = /home/victor/.git-templates
-[fetch]
-	prune = true
