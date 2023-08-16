@@ -1,7 +1,7 @@
 [user]
 	name = Victor Otávio Ferreira
 	email = victor@ferreira.id
-	signingkey = 009E784F43D5CD40
+	signingKey = <GPG_KEY_ID>
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
