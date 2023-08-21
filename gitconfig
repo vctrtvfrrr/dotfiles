@@ -38,7 +38,7 @@
 	undo = "!git reset --soft HEAD~"
 	undopush = push -f origin HEAD^:master
 	l = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-	go = "!git add -A && (git diff-index --quiet HEAD || git commit -m \"$(curl --silent 'https://whatthecommit.com/index.txt')\") && git push -u"
+	go = "!git add -A && (git diff-index --quiet HEAD || git commit -m \"$(curl --silent 'https://whatthecommit.com/index.txt')\") && git push origin HEAD --force-with-lease"
 	pr = "!f() { \
 			open \"$(git ls-remote --get-url $(git config --get branch.$(git rev-parse --abbrev-ref HEAD).remote) \
 			| sed 's|git@github.com:\\(.*\\)$|https://github.com/\\1|' \
