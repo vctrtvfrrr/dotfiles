@@ -23,7 +23,7 @@ alias meminfo='free -m -l -t'
 
 # Git
 alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
-alias nah='git reset --hard && git clean -df'
+alias nah='nah(){ git reset --hard; git clean -df; if [ -d ".git/rebase-apply" ] || [ -d ".git/rebase-merge" ]; then; git rebase --abort; fi; }; nah'
 alias wip='git add . && git commit -m "wip"'
 alias wtc="curl --silent 'https://whatthecommit.com/index.txt'"
 alias gcom='git commit -m "$(wtc)"'
@@ -40,8 +40,7 @@ alias pwf='phpunit-watcher watch --stop-on-error --filter'
 alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type f -name "*.go" | grep -v _test.go) }; gorunfunc'
 
 # Docker
-alias dcom='docker compose -f docker-compose.yml'
-alias dcomp='docker compose -f docker-compose.prod.yml'
+alias dcom='docker compose --profile development'
 alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
 alias phpd='docker run --rm -it -v $PWD:/app -w /app php:latest php'
 alias openapi='docker run --rm -p 8123:8080 -e SWAGGER_JSON=/tmp/schema.yaml -v $PWD:/tmp swaggerapi/swagger-ui'
