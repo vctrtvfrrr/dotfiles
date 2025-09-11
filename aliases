@@ -39,6 +39,9 @@ alias pwf='phpunit-watcher watch --stop-on-error --filter'
 # Go
 alias gorun='gorunfunc(){ reflex -d none -s -r "\.go$" -- go run $(find $1 -type f -name "*.go" | grep -v _test.go) }; gorunfunc'
 
+# Python
+alias httpserve="python -m http.server"
+
 # Docker
 alias dcom='docker compose --profile development'
 alias docker-cl='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q) && docker system prune -f'
